@@ -1,0 +1,22 @@
+.newscontainer{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:450px) {
+    .extra{
+        font-size: 30px;
+    }
+    
+}
